@@ -3,7 +3,7 @@
 	"name": "Code Folding",
 	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "为 Obsidian 代码块添加折叠功能，支持超过5行时自动折叠，并提供一键复制功能。",
+	"description": "A lightweight plugin that adds smart folding functionality to code blocks.",
 	"author": "mr-pounds",
 	"authorUrl": "https://github.com/mr-pounds",
 	"fundingUrl": "https://github.com/mr-pounds",

@@ -1,6 +1,6 @@
 # Obsidian Code Folding
 
-A lightweight Obsidian plugin that adds smart folding functionality to code blocks.
+A lightweight plugin that adds smart folding functionality to code blocks.
 
 [中文文档](README.md)
 

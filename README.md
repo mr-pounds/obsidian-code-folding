@@ -1,4 +1,4 @@
-# Obsidian Code Folding
+# Code Folding
 
 [English Document](README_EN.md)
 
