@@ -11,5 +11,7 @@
 			"tag-separator": "",
 			"include-v-in-tag": false
 		}
-	}
+	},
+	"extra-files": ["manifest.json", "versions.json"],
+	"plugins": ["node-workspace"]
 }
