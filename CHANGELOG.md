@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/mr-pounds/code-folding/compare/1.1.0...1.1.1) (2026-01-29)
+
+
+### Bug Fixes
+
+* 更新插件名称和描述为英文 ([f98b32f](https://github.com/mr-pounds/code-folding/commit/f98b32fdc4f5bd3afc045e8790cac4a54e22d0b1))
+
 ## [1.1.0](https://github.com/mr-pounds/obsidian-code-folding/compare/1.0.1...1.1.0) (2026-01-29)
 
 
