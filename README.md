@@ -1,54 +1,52 @@
-# Code Folding
+# Obsidian Code Folding
 
-[English Document](README_EN.md)
+A lightweight plugin that adds smart folding functionality to code blocks.
 
-一个轻量级的 Obsidian 插件，为代码块添加智能折叠功能。
+[中文文档](README_ZH.md)
 
-## 核心原则
+## Core Principles
 
-- **最小改动**：只做代码块折叠，不附带其他功能
-- **性能优先**：精简高效的代码实现
-- **主题兼容**：使用 Obsidian 原生 CSS 变量，适配所有主题
+- **Minimal Changes**: Focus solely on code block folding, no additional features
+- **Performance First**: Lean and efficient code implementation
+- **Theme Compatible**: Uses Obsidian native CSS variables, compatible with all themes
 
-## 功能特性
+## Features
 
-| 代码行数 | 行为                                          |
-| -------- | --------------------------------------------- |
-| ≤ 5 行   | 显示完整代码，提供一键复制                    |
-| > 5 行   | 自动折叠超出部分，点击展开/收起，支持一键复制 |
+| Code Lines | Behavior                                                              |
+| ---------- | --------------------------------------------------------------------- |
+| ≤ 5 lines  | Display full code with one-click copy                                 |
+| > 5 lines  | Auto-fold overflow, click to expand/collapse, supports one-click copy |
 
-## 安装
+## Installation
 
-### 通过 Obsidian 安装（推荐）
+### Via Obsidian (Recommended)
 
-1. 打开 Obsidian 设置 → 第三方插件
-2. 关闭安全模式
-3. 点击浏览社区插件
-4. 搜索 "Code Folding"
-5. 点击安装并启用
+1. Open Obsidian Settings → Community Plugins
+2. Turn off Safe Mode
+3. Click Browse Community Plugins
+4. Search for "Code Folding"
+5. Click Install and Enable
 
-### 手动安装
+### Manual Installation
 
-1. 下载最新版本的 `main.js`、`styles.css` 和 `manifest.json`
-2. 将文件放入 Vault 的 `.obsidian/plugins/obsidian-code-folding/` 目录
-3. 在 Obsidian 设置中启用插件
+1. Download the latest `main.js`, `styles.css`, and `manifest.json`
+2. Place files in your Vault's `.obsidian/plugins/obsidian-code-folding/` directory
+3. Enable the plugin in Obsidian settings
 
-## 使用
+## Usage
 
-- 点击代码块头部展开/收起折叠内容
-- 点击 📋 按钮复制代码
-- 在设置中调整折叠阈值（默认 5 行）
+- Click the code block header to expand/collapse folded content
+- Click the 📋 button to copy code
+- Adjust the folding threshold in settings (default: 5 lines)
 
-## 设置
+## Settings
 
-| 选项     | 说明                 | 默认值 |
-| -------- | -------------------- | ------ |
-| 折叠阈值 | 超过此行数时自动折叠 | 5      |
+| Option         | Description                              | Default |
+| -------------- | ---------------------------------------- | ------- |
+| Fold Threshold | Auto-fold when exceeding this line count | 5       |
 
-## 兼容性
+## Compatibility
 
-- Obsidian 版本：≥ 0.15.0
-- 支持桌面端和移动端
-- 适配所有 Obsidian 主题
-- 支持桌面端和移动端
-- 适配所有 Obsidian 主题
+- Obsidian version: ≥ 0.15.0
+- Supports desktop and mobile
+- Compatible with all Obsidian themes
